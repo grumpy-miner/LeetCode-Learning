@@ -1,3 +1,5 @@
+import re
+
 class Solution:
     def myAtoi(self, s: str) -> int:
         pattern = r'^\s*([-+]?\d+)'
